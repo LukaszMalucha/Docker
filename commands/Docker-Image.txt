@@ -1,0 +1,12 @@
+## ADD TAG
+
+	docker image tag nginx <tag>
+
+## DOCKER LOGIN
+	docker login
+	docker logout
+
+## PUSH IMAGE
+
+	docker image push <name>
+
