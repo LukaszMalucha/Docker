@@ -23,8 +23,12 @@ docker container stop <first three symbols>
 ## CONTAINER REMOVE
 docker container rm <first three symbols>
 docker container rm -f <first three symbols>
+
 ## CONTAINER LOGS
 docker container logs <name>
+
+## CONTAINER LIST OF PROCESSES
+docker top <name>
 
 
 
