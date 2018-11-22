@@ -1,0 +1,10 @@
+## CLI MANAGEMENT
+	docker network ls
+	docker network inspect
+	docker newtwork create --driver
+	docker network connect
+	docker network disconnect
+
+## SKIP VIRTUAL NETWORK AND ATTACH TO HOST
+	docker network create my_app_net
+	docker container rn -d --name new_nginx --network my_app_net nginx
