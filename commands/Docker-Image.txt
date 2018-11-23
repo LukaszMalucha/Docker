@@ -10,3 +10,8 @@
 
 	docker image push <name>
 
+http://192.168.99.100
+
+## DOCKERFILE EXECUTE (from catalogue)
+
+	docker image build -t <image_name> .

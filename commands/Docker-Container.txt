@@ -44,9 +44,13 @@
 	docker container exec -it
 
 ## CONTAINER ADDITIONLA PROCESS
-	docekr container exec -it mysql bash
+	docker container exec -it mysql bash
 
+## CREATE VOLUME WITHOUT CONTAINER 
+	docker volume create 
 
+## VOLUME NAME
+	docker container run -d --name mysql -e MYSQL_RANDOM_ROOT_PASSWORD=yes -v mysql-db:/var/lib/mysql mysql
 
 
 
